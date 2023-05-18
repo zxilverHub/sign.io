@@ -44,6 +44,7 @@ register.addEventListener('click', () => {
 function showUsers(u) {
     console.log(u.infos())
     sign_in_container.classList.toggle('sign-toggle');
+    window.reload();
 }
 
 
